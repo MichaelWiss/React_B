@@ -7,7 +7,11 @@ const API_KEY = '';
 // create a new component
 
 const App = () => {
-	return <div>Hi!</div>;
+	return (
+		<div>
+		<SearchBar />
+        </div>;
+        );
 }
 
 
