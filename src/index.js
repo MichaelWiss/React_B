@@ -15,12 +15,20 @@ YTSearch({key: API_KEY, term: 'surfboards'}, function(data) {
 
 
 
-const App = () => {
+class App extends Component {
+    constructor(props) {
+    	super(props);
+
+    	this.state = { videos: [] };
+    }
+
+	render() {
 	return (
 		<div>
-		<SearchBar />
+		  <SearchBar />
         </div>
         );
+    }
 }
 
 
