@@ -6,7 +6,7 @@ npm-debug.log
 *.iml
 /.idea
 
-# Environment variables
+
 .env
 
 components/config.js
